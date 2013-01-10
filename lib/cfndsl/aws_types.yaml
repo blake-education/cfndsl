@@ -222,9 +222,18 @@ Resources:
   "AWS::IAM::Policy" :
    Properties:
     PolicyName: String
-    PolocyDocument: JSON
+    PolicyDocument: JSON
     Groups: [ String ]
     Users: [ String ]
+  "AWS::IAM::InstanceProfile" :
+   Properties:
+    Path: String
+    Roles: [ String ]
+  "AWS::IAM::Role" :
+   Properties:
+    AssumeRolePolicyDocument: JSON
+    Path: String
+    Policies: [ String ]
   "AWS::IAM::UserToGroupAddition" :
    Properties:
     Group: String
