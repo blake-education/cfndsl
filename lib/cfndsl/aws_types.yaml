@@ -277,7 +277,7 @@ Resources:
     GroupDescription: String
     DBSecurityGroupIngress: RDSSecurityGroupRule
     EC2VpcId: String
-  "AWS::RDS::DBSecurityGroup" :
+  "AWS::RDS::DBSubnetGroup" :
    Properties:
     DBSubnetGroupDescription: String
     SubnetIds: [ String ]
