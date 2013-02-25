@@ -274,14 +274,14 @@ Resources:
      Endpoint.Port: String
   "AWS::RDS::DBSecurityGroup" :
    Properties:
-    DBSubnetGroupDescription: String
-    SubnetIds: [ String ]
-  "AWS::RDS::SecurityGroup" :
-   Properties:
+    GroupDescription: String
     DBSecurityGroupIngress: RDSSecurityGroupRule
     EC2VpcId: String
-    GroupDescription: String
-  "AWS::RDS::SecurityGroupIngress" :
+  "AWS::RDS::DBSecurityGroup" :
+   Properties:
+    DBSubnetGroupDescription: String
+    SubnetIds: [ String ]
+  "AWS::RDS::DBSecurityGroupIngress" :
    Properties:
     CIDRIR: String
     EC2SecurityGroupId: String
