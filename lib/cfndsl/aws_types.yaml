@@ -8,6 +8,7 @@ Resources:
     HealthCheckType: String
     LaunchConfigurationName: String
     LoadBalancers: [ String ]
+    LoadBalancerNames: [ String ]
     MaxSize: Integer
     MinSize: Integer
     NotificationConfiguration: String
@@ -23,6 +24,7 @@ Resources:
      RamDiskId: String
      SecurityGroups: [ String ]
      UserData: String
+     IamInstanceProfile: String
   "AWS::Autoscaling::ScalingPolicy" :
    Properties:
     AdjustmentType: String
