@@ -97,6 +97,7 @@ Resources:
     DisableApiTermination: String
     ImageId: String
     InstanceType: String
+    IamInstanceProfile: String
     KernelId: String
     KeyName: String
     Monitoring: String
