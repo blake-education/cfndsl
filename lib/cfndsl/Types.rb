@@ -85,7 +85,7 @@ module CfnDsl
                     x = instance_variable_set( variable, [] )
                   end
                   
-                  if( ! value.type_of? Array) then
+                  if( ! value.kind_of? Array) then
                     value = [value]
                   end
                   value.each do |v|
