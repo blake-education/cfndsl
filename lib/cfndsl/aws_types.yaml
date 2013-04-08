@@ -11,7 +11,7 @@ Resources:
     LoadBalancerNames: [ String ]
     MaxSize: Integer
     MinSize: Integer
-    NotificationConfiguration: String
+    NotificationConfiguration: NotificationConfiguration
     Tags: [ AutoScalingTags ]
     VPCZoneIdentifier: [ String ]
   "AWS::AutoScaling::LaunchConfiguration" :
