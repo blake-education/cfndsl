@@ -94,6 +94,7 @@ Resources:
   "AWS::EC2::Instance" :
    Properties:
     AvailabilityZone: String
+    BlockDeviceMappings: [ BlockDeviceMapping ]
     DisableApiTermination: String
     ImageId: String
     InstanceType: String
